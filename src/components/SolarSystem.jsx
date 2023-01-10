@@ -12,7 +12,7 @@ class SolarSystem extends React.Component {
           <PlanetCard
             key={ planeta.name }
             planetName={ planeta.name }
-            PlanetImage={ planeta.image }
+            planetImage={ planeta.image }
           />
         ))}
       </div>
